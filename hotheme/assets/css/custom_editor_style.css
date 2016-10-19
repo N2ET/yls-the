@@ -1,0 +1,45 @@
+/* Formating */
+body#tinymce.wp-editor {
+	font-family: 'Roboto', sans-serif;
+}
+
+body#tinymce.wp-editor h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+body#tinymce.wp-editor h2 {
+	font-size: 20px;
+	font-weight: 700;
+}
+body#tinymce.wp-editor h3 {
+	font-size: 18px;
+}
+body#tinymce.wp-editor h4 {
+	font-size: 16px;
+}
+body#tinymce.wp-editor h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor p, body#tinymce.wp-editor ul, body#tinymce.wp-editor ol, body#tinymce.wp-editor blockquote {
+}
+body#tinymce.wp-editor a:hover {
+	text-decoration: underline;
+}
+body#tinymce.wp-editor ul, body#tinymce.wp-editor ol {
+	line-height: 32px;
+}
+body#tinymce.wp-editor blockquote {
+	background: #f1f1f1;
+	font-style: italic;
+    border-left: 10px solid #ccc;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+	body#tinymce.wp-editor blockquote:before {
+		color: #ccc;
+	    content: open-quote;
+	    font-size: 4em;
+	    line-height: 0.1em;
+	}
+	body#tinymce.wp-editor blockquote p {
+		display: inline;
+	}
+	body#tinymce.wp-editor img {
+		border: 0px !important;
+	}

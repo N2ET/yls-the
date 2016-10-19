@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>link</title>
+</head>
+<body>
+
+<div id="container">
+
+</div>
+
+<script type="text/javascript">
+    var links = [
+            'http://shop1457453.cnhnb.com/',
+            'http://m.cnhnb.com/d/1457453',
+            'http://www.cssmoban.com/wpthemes/6391.shtml',
+            'http://demo-cottage.hotheme.co/',
+            'http://demo.cssmoban.com/cssthemes3/ctps_357_ob/index.html',
+            'http://www.cssmoban.com/cssthemes/6146.shtml',
+            'http://www.cssmoban.com/cssthemes/4784.shtml',
+            'http://www.cssmoban.com/cssthemes/6236.shtml',
+            'http://demo.cssmoban.com/cssthemes1/btm_22/index.html',
+            'http://demo-camp.hotheme.co/',
+            'http://www.typtlcl.com/contact.html'
+    ];
+
+    var html = links.map(function (item) {
+        return '<a href="{v}" target="blank">{v}</a>'.replace(/\{v\}/g, item);
+    });
+
+    document.querySelector('#container').innerHTML = html.join('<br />')
+</script>
+
+</body>
+</html>

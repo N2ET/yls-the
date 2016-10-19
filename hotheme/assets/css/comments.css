@@ -1,0 +1,179 @@
+.comments {
+	float: left;
+}
+.comments #respond {
+	background-color: #f0f0f0;
+}
+	.comments #respond input[type='text'], .comments #respond textarea {
+	}
+
+.comments .comment {
+	background-color: #fff;
+	border-top: 1px solid #f7f7f7;
+}
+	.comments .comment .comment-header {
+		float: left;
+	}
+	.comments .comment img  {
+		-webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+		float: left; 
+	}
+	.comments .comment .meta {
+		float: left;
+	}
+	.comments .comment .meta h4 {
+		float: left;
+		font-style: normal;
+	}
+	.comments .comment .meta p {
+		float: left;
+	}
+		.comments .comment .meta .label {
+			background-color: #f0f0f0;
+			-webkit-border-radius: 4px;
+		    -moz-border-radius: 4px;
+		    border-radius: 4px;
+		    font-size: 12px;
+		}
+
+.comments ul {
+	list-style: none;
+}
+
+.comments #submit {
+	position: relative;
+}
+
+/* Desktops, Tablets landscape ----------- */
+@media only screen and (min-width : 769px) {
+
+	.comments {
+		width: 100%;
+	}
+	.comments #respond {
+		padding: 20px 20px 20px 20px;
+	}
+		.comments #respond input[type='text'], .comments #respond textarea {
+			width: 100%;
+		}
+
+	.comments .comment {
+		padding: 20px 20px 20px 20px;
+	}
+		.comments .comment .comment-header {
+			margin: 0px 0px 20px 0px;
+		}
+		.comments .comment img  {
+			margin: 0px 20px 0px 0px;
+		}
+		.comments .comment .meta {
+		}
+		.comments .comment .meta h4 {
+			margin: 0;
+		}
+		.comments .comment .meta p {
+			margin: 0;
+		}
+			.comments .comment .meta .label {
+			    margin: 0px 0px 0px 10px;
+			    padding: 5px 5px 5px 5px;
+			}
+
+	.comments ul {
+		margin: 0px;
+	}
+
+	.comments #submit {
+	}
+
+}
+
+/* Tablets portrait ----------- */
+@media only screen and (min-width : 385px) and (max-width : 768px) {
+
+	.comments {
+		width: 100%;
+	}
+	.comments #respond {
+		padding: 20px 20px 20px 20px;
+	}
+		.comments #respond input[type='text'], .comments #respond textarea {
+			width: 100%;
+		}
+
+	.comments .comment {
+		padding: 20px 20px 20px 20px;
+	}
+		.comments .comment .comment-header {
+			margin: 0px 0px 20px 0px;
+		}
+		.comments .comment img  {
+			margin: 0px 20px 0px 0px;
+		}
+		.comments .comment .meta {
+		}
+		.comments .comment .meta h4 {
+			margin: 0;
+		}
+		.comments .comment .meta p {
+			margin: 0;
+		}
+			.comments .comment .meta .label {
+			    margin: 0px 0px 0px 10px;
+			    padding: 5px 5px 5px 5px;
+			}
+
+	.comments ul {
+		margin: 0px;
+	}
+
+	.comments #submit {
+	}
+
+}
+
+/* Mobile ----------- */
+@media only screen and (max-width : 384px) {
+
+	.comments {
+		width: 300px;
+	}
+	.comments #respond {
+		padding: 20px 20px 20px 20px;
+	}
+		.comments #respond input[type='text'], .comments #respond textarea {
+			width: 100%;
+		}
+
+	.comments .comment {
+		padding: 20px 20px 20px 20px;
+	}
+		.comments .comment .comment-header {
+			margin: 0px 0px 20px 0px;
+		}
+		.comments .comment img  {
+			margin: 0px 20px 0px 0px;
+		}
+		.comments .comment .meta {
+		}
+		.comments .comment .meta h4 {
+			margin: 0;
+		}
+		.comments .comment .meta p {
+			margin: 0;
+		}
+			.comments .comment .meta .label {
+			    margin: 0px 0px 0px 10px;
+			    padding: 5px 5px 5px 5px;
+			}
+
+	.comments ul {
+		margin: 0px;
+	}
+
+	.comments #submit {
+	}
+
+}

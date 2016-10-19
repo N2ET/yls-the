@@ -1,0 +1,122 @@
+/* Contact */
+		.contact h1 {
+			position: relative;
+			clear: both;
+		}
+		.contact form {
+			position: relative;
+			float: left;
+		}
+			.contact input[type='text'], .contact input[type='email'] {
+				position: relative;
+				clear: both;
+			}
+			.contact input[type='email'] {
+			}
+			.contact textarea {
+				position: relative;
+				clear: both;
+			}
+			.contact input[type='submit'] {
+				position: relative;
+			}
+		.contact .exact-directions {
+			position: relative;
+			float: left;
+			clear: both;
+		}
+		.contact .directions .directions-content {
+			float: left;
+		}
+
+/* Desktops, Tablets landscape ----------- */
+@media only screen and (min-width : 769px) {
+
+	/* Contact */
+		.contact h1 {
+			margin: 0px 0px 50px 0px;
+		}
+		.contact form {
+			margin: 0px 0px 50px 0px;
+		}
+			.contact input[type='text'], .contact input[type='email'] {
+				width: 310px;
+				margin: 0px 0px 10px 0px;
+			}
+			.contact input[type='email'] {
+				margin-left: 10px;
+			}
+			.contact textarea {
+				width: 630px;
+				height: 200px;
+				margin: 0px 0px 10px 0px;
+			}
+			.contact input[type='submit'] {
+			}
+		.contact .exact-directions {
+			margin: 30px 0px 30px 0px;
+		}
+
+}
+
+/* Tablets portrait ----------- */
+@media only screen and (min-width : 385px) and (max-width : 768px) {
+
+	/* Contact */
+		.contact h1 {
+			margin: 0px 0px 50px 0px;
+		}
+		.contact form {
+			margin: 0px 0px 50px 0px;
+		}
+			.contact input[type='text'], .contact input[type='email'] {
+				width: 400px;
+				margin: 0px 0px 10px 0px;
+			}
+			.contact input[type='email'] {
+				margin-left: 0px;
+			}
+			.contact textarea {
+				width: 400px;
+				height: 200px;
+				margin: 0px 0px 10px 0px;
+			}
+			.contact input[type='submit'] {
+			}
+		.contact .exact-directions {
+			margin: 30px 0px 30px 0px;
+		}
+
+}
+
+/* Mobile ----------- */
+@media only screen and (max-width : 384px) {
+
+	/* Contact */
+		.contact form {
+			margin: 20px 0px 50px 30px;
+		}
+			.contact input[type='text'], .contact input[type='email'] {
+				width: 250px;
+				margin: 0px 0px 10px 0px;
+			}
+			.contact input[type='email'] {
+				margin-left: 0px;
+			}
+			.contact textarea {
+				width: 250px;
+				height: 200px;
+				margin: 0px 0px 10px 0px;
+			}
+			.contact input[type='submit'] {
+			}
+		.contact .exact-directions {
+			width: 80%;
+			margin: 30px 0px 30px 30px;
+		}
+		.contact .directions .map {
+			margin: 0px 0px 0px 0px;
+			width: 305px;
+		}
+
+}

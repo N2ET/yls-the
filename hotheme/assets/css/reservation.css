@@ -1,0 +1,230 @@
+/* Reservation */
+		.reservation h1 {
+			position: relative;
+			clear: both;
+			color: #fff;
+		}
+		.reservation select, .reservation-name, .reservation textarea {
+		}
+		.reservation-checkin, .reservation-checkout, .reservation-people, .reservation select, .reservation-phone, .reservation-email, .reservation-name, .reservation textarea {
+			position: relative;
+			float: left;
+		}
+			.reservation-checkin, .reservation-checkout {
+			}
+			.reservation-checkout {
+			}
+			.reservation-people, .reservation-phone {
+			}
+			.reservation-email {
+			}
+			.reservation textarea {
+			}
+			.reservation-name {	
+			}
+			.reservation input[type='submit'] {
+				position: relative;
+				float: left;
+			}
+			.reservation p {
+				position: relative;
+				float: left;
+				color: #fff;
+			} 
+	  /* Check status */
+	    .input-wrapper .status {
+	      position: absolute;
+	      overflow: hidden;
+	    }
+	      .input-wrapper .status img {
+	        position: relative;
+	      }
+	    .ipt-error {
+	      background-color: #fddfdf !important;
+	    }
+	    .ipt-correct {
+	      background-color: #fff !important;
+	    }
+
+/* Desktops, Tablets landscape ----------- */
+@media only screen and (min-width : 769px) {
+
+		.reservation h1 {
+			margin: 0px 0px 50px 0px;
+		}
+		.reservation select, .reservation-name, .reservation textarea {
+			width: 630px;
+		}
+			.no-sidebar .reservation select, .no-sidebar .reservation-name, .no-sidebar .reservation textarea {
+				width: 880px;
+			}
+		.reservation-checkin, .reservation-checkout, .reservation-people, .reservation select, .reservation-phone, .reservation-email, .reservation-name, .reservation textarea {
+			margin-bottom: 10px;
+		}
+			.reservation-checkin, .reservation-checkout {
+				width: 160px;
+				margin-bottom: 30px;
+			}
+			.reservation-checkout {
+				margin-left: 10px;
+			}
+			.reservation-people, .reservation-phone {
+				width: 290px;
+				margin-left: 10px;
+			}
+				.no-sidebar .reservation-people, .no-sidebar .reservation-phone {
+					width: 540px;
+					margin-left: 10px;
+				}
+			.reservation-email {
+				width: 330px;
+			}
+			.reservation textarea {
+				height: 200px;
+			}
+			.reservation-name {	
+			}
+			.reservation input[type='submit'] {
+			}
+			.reservation p {
+				margin: 10px 0px 0px 20px;
+			} 
+	  /* Check status */
+	    .input-wrapper .status {
+	      top: 15px;
+	      right: 13px;
+	      width: 20px;
+	      height: 20px;
+	    }
+	      .input-wrapper .status img {
+	        height: 20px;
+	      }
+	    .ipt-error {
+	    }
+	    .ipt-correct {
+	    }
+
+}
+
+/* Tablets portrait ----------- */
+@media only screen and (min-width : 385px) and (max-width : 768px) {
+
+		.reservation h1 {
+			margin: 0px 0px 50px 0px;
+		}
+		.reservation select, .reservation-name, .reservation textarea, .reservation-people {
+			width: 400px;
+		}
+			.no-sidebar select, .no-sidebar .reservation-name, .no-sidebar textarea {
+				width: 600px;
+			}
+			.no-sidebar .reservation-people {
+				margin-left: 10px;
+				width: 240px;
+			}
+		.reservation-checkin, .reservation-checkout, .reservation-people, .reservation select, .reservation-phone, .reservation-email, .reservation-name, .reservation textarea {
+			margin-bottom: 10px;
+		}
+			.reservation-checkin, .reservation-checkout {
+				width: 195px;
+			}
+			.reservation-checkout {
+				margin-left: 10px;
+			}
+			.reservation-people {
+				margin-bottom: 30px;
+			}
+			.reservation-phone {
+				width: 190px;
+				margin-left: 10px;
+			}
+				.no-sidebar .reservation-phone {
+					width: 240px;
+				}
+			.reservation-email {
+				width: 200px;
+			}
+				.no-sidebar .reservation-email {
+					width: 400px;
+				}
+			.reservation textarea {
+				height: 200px;
+			}
+			.reservation-name {	
+			}
+			.reservation input[type='submit'] {
+			}
+			.reservation p {
+				margin: 10px 0px 0px 20px;
+			} 
+	  /* Check status */
+	    .input-wrapper .status {
+	      top: 15px;
+	      right: 13px;
+	      width: 20px;
+	      height: 20px;
+	    }
+	      .input-wrapper .status img {
+	        height: 20px;
+	      }
+	    .ipt-error {
+	    }
+	    .ipt-correct {
+	    }
+
+}
+
+/* Mobile ----------- */
+@media only screen and (max-width : 384px) {
+	
+		.reservation form {
+			margin: 0px 0px 0px 20px;
+		}
+		.reservation select, .reservation-name, .reservation textarea, .reservation-people {
+			width: 260px;
+		}
+		.reservation-checkin, .reservation-checkout, .reservation-people, .reservation select, .reservation-phone, .reservation-email, .reservation-name, .reservation textarea {
+			margin-bottom: 10px;
+		}
+			.reservation-checkin, .reservation-checkout {
+				width: 125px;
+			}
+			.reservation-checkout {
+				margin-left: 10px;
+			}
+			.reservation-people {
+				margin-bottom: 30px;
+			}
+			.reservation-phone {
+				width: 125px;
+				margin-left: 10px;
+			}
+			.reservation-email {
+				width: 125px;
+			}
+			.reservation textarea {
+				height: 200px;
+			}
+			.reservation-name {	
+			}
+			.reservation input[type='submit'] {
+			}
+			.reservation p {
+				margin: 10px 0px 40px 20px;
+			} 
+	  /* Check status */
+	    .input-wrapper .status {
+	      top: 15px;
+	      right: 13px;
+	      width: 20px;
+	      height: 20px;
+	    }
+	      .input-wrapper .status img {
+	        height: 20px;
+	      }
+	    .ipt-error {
+	    }
+	    .ipt-correct {
+	    }
+
+}

@@ -1,0 +1,479 @@
+/* Detail */
+	.detail h1 {	
+	}
+	.detail p {
+		clear: both;
+	}
+	.detail .beds-wrapper {
+		position: relative;
+		float: left;
+	}
+	.detail .distance-wrapper {
+		position: relative;
+		float: left;
+	}
+	.detail .img-wrapper {
+		position: relative;
+		float: left;
+		background-color: gray;
+	}
+		.detail .img-wrapper img {
+			position: absolute;
+		}
+			.detail .img-wrapper a:first-child {
+				z-index: 999;
+			}
+			.detail .img-wrapper a .open-gallery-trigger {
+				color: #fff;
+				font-size: 18px;
+				text-align: center;
+				display: none;
+				position: absolute;
+				zoom: 1;
+		        filter: alpha(opacity=50);
+		        opacity: 0.5;
+			}
+			.detail .img-wrapper a:hover > .open-gallery-trigger {
+				display: block;
+			}
+	.detail .amenities {
+		position: relative;
+		clear: both;
+	}
+		.amenities p {
+			font-style: italic;
+			color: #888;
+		}
+		.amenities span {
+			font-weight: 400;
+			font-style: normal;
+		}
+	.detail .booking {
+		position: relative;
+		float: left;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		background-color: #f0f0f0;
+	}
+		.booking .price {
+			position: relative;
+			font-size: 50px;
+			font-weight: 700;
+			text-align: center;
+			float: left;
+			line-height: 30px;
+		}
+			.price span {
+				font-size: 20px;
+				font-weight: 400;
+			}
+		.booking form {
+			position: relative;
+			float: left;
+		}
+			.booking form .booking-checkin {
+				position: relative;
+			}
+			.booking form .booking-checkout {
+				position: relative;
+			}
+				.input-wrapper .datepicker-icon {
+					position: absolute;
+					background-image: url('../ico/datepicker.png');
+					background-size: 15px 15px;
+				}
+			.booking form input[type='submit'] {
+			}
+	.detail .extended-info {
+		position: relative;
+		float: left;
+		font-style: italic;
+		color: #888;
+	}
+
+	.detail .directions .directions-content {
+		float: left;
+	}
+
+	/* Formating */
+	.detail h1 {
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.detail h2 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.detail h3 {
+		font-size: 18px;
+	}
+	.detail h4 {
+		font-size: 16px;
+	}
+	.detail h1, .detail h2, .detail h3, .detail h4, .detail p, .detail ul, .detail ol, .detail blockquote {
+	}
+	.detail a:hover {
+		text-decoration: underline;
+	}
+	.detail ul, .detail ol {
+		line-height: 32px;
+	}
+	.detail blockquote {
+		background: #f1f1f1;
+		font-style: italic;
+	    border-left: 10px solid #ccc;
+	    quotes: "\201C""\201D""\2018""\2019";
+	}
+		.detail blockquote:before {
+			color: #ccc;
+		    content: open-quote;
+		    font-size: 4em;
+		    line-height: 0.1em;
+		}
+		.detail blockquote p {
+			display: inline;
+		}
+		.detail img {
+			border: 0px !important;
+		}
+	.detail .bypostauthor {
+		font-size: #f0f0f0;
+	}
+
+/* Desktops, Tablets landscape ----------- */
+@media only screen and (min-width : 769px) {
+
+	/* Detail */
+	.detail h1 {
+		float: left;
+
+		width: 80%;
+	}
+	.detail p {
+	}
+	.detail .beds-wrapper {
+		width: 20%;
+		margin: 13px 0px 0px 0px;
+	}
+	.detail .distance-wrapper {
+		width: 20%;
+		margin: 10px 0px 0px 0px;
+	}
+	.detail .img-wrapper {
+		margin: 20px 0px 30px 0px;
+		width: 100%;
+		height: 400px;
+	}
+		.detail .img-wrapper img {
+			width: 100%;	
+			top: 0px;
+			left: 0px;
+		}
+			.detail .img-wrapper a:first-child {
+			}
+			.detail .img-wrapper a .open-gallery-trigger {
+				height: 100%;
+				width: 100%;
+				padding: 180px 0px 0px 0px;
+				top: 0px;
+				left: 0px;
+			}
+			.detail .img-wrapper a:hover > .open-gallery-trigger {
+			}
+	.detail .amenities {
+		margin: 30px 0px 30px 0px;
+	}
+		.amenities p {
+		}
+		.amenities span {
+		}
+	.detail .booking {
+		padding: 10px 10px 10px 10px;
+		width: 100%;
+		margin: 40px 0px 40px 0px;
+	}
+		.booking .price {
+			width: 50%;
+			margin: 20px 0px 0px 0px;
+		}
+			.price span {
+			}
+		.booking form {
+			width: 50%;
+		}
+			.booking form .booking-checkin {
+				width: 145px;
+			}
+			.booking form .booking-checkout {
+				width: 145px;
+				margin-left: 10px;
+			}
+				.input-wrapper .datepicker-icon {
+					top: 16px;
+					right: 16px;
+					width: 15px;
+					height: 15px;
+				}
+			.booking form input[type='submit'] {
+				width: 100%;
+				margin: 10px 0px 0px 0px;
+			}
+	.detail .extended-info {
+		width: 100%;
+	}
+
+	.detail .directions {
+		margin: 30px 0px 30px 0px;
+	}
+
+	/* Formating */
+	.detail h1 {
+	}
+	.detail h2 {
+	}
+	.detail h3 {
+	}
+	.detail h4 {
+	}
+	.detail h1, .detail h2, .detail h3, .detail h4, .detail p, .detail ul, .detail ol, .detail blockquote {
+		margin: 0px 0px 25px 0px;
+	}
+	.detail a:hover {
+	}
+	.detail ul, .detail ol {
+		margin-left: 20px;
+	}
+	.detail blockquote {
+	    padding: 8px 10px;
+	}
+		.detail blockquote:before {
+		    margin-right: 0.25em;
+		    vertical-align: -30px;
+		}
+		.detail blockquote p {
+		}
+		.detail img {
+		}
+
+
+}
+
+/* Tablets portrait ----------- */
+@media only screen and (min-width : 385px) and (max-width : 768px) {
+
+	/* Detail */
+	.detail h1 {
+		float: left;
+
+		width: 80%;
+	}
+	.detail p {
+	}
+	.detail .beds-wrapper {
+		width: 20%;
+		margin: 20px 0px 0px 0px;
+	}
+	.detail .distance-wrapper {
+		width: 20%;
+		margin: 10px 0px 0px 0px;
+	}
+	.detail .img-wrapper {
+		margin: 20px 0px 30px 0px;
+		width: 100%;
+		height: 400px;
+	}
+		.detail .img-wrapper img {
+			width: 100%;
+			top: 0px;
+			left: 0px;
+		}
+			.detail .img-wrapper a:first-child {
+			}
+			.detail .img-wrapper a .open-gallery-trigger {
+				top: 45%;
+				left: 150px;
+			}
+			.detail .img-wrapper a:hover > .open-gallery-trigger {
+			}
+	.detail .amenities {
+		margin: 30px 0px 30px 0px;
+	}
+		.amenities p {
+		}
+		.amenities span {
+		}
+	.detail .booking {
+		padding: 10px 10px 10px 10px;
+		width: 100%;
+		margin: 40px 0px 40px 0px;
+	}
+		.booking .price {
+			width: 50%;
+			margin: 50px 0px 0px 0px;
+		}
+			.price span {
+			}
+		.booking form {
+			width: 50%;
+		}
+			.booking form .booking-checkin {
+				width: 100%;
+				margin: 0px 0px 10px 0px;
+			}
+			.booking form .booking-checkout {
+				width: 100%;
+			}
+				.input-wrapper .datepicker-icon {
+					top: 16px;
+					right: 16px;
+					width: 15px;
+					height: 15px;
+				}
+			.booking form input[type='submit'] {
+				width: 100%;
+				margin: 10px 0px 0px 0px;
+			}
+	.detail .extended-info {
+		width: 100%;
+	}
+
+	.detail .directions {
+		margin: 30px 0px 30px 0px;
+	}
+
+}
+
+/* Mobile ----------- */
+@media only screen and (max-width : 384px) {
+
+	/* Detail */
+	.detail p {
+		width: 80%;
+	}
+	.detail .beds-wrapper {
+		float: none;
+		width: 100%;
+	}
+		.detail .beds-wrapper .beds {
+			left: 30px;
+		}
+		.detail .beds-wrapper .bed {
+			width: 15px;
+			height: 15px;
+			margin: 0px 5px 40px 0px;
+		}
+			.detail .beds-wrapper .bed img {
+				width: 15px;
+			}
+	.detail .distance-wrapper {
+		float: none;
+		width: 100%;
+		height: 20px;
+	}
+		.detail .distance {
+			left: 25px !important;
+		}
+	.detail .img-wrapper {
+		float: none;
+		margin: 40px 0px 30px 0px;
+		width: 100%;
+		height: 250px;
+	}
+		.detail .img-wrapper img {
+			height: 100%;	
+			top: 0px;
+			left: 0px;
+		}
+			.detail .img-wrapper a:first-child {
+			}
+			.detail .img-wrapper a .open-gallery-trigger {
+				top: 45%;
+				left: 50px;
+			}
+			.detail .img-wrapper a:hover > .open-gallery-trigger {
+			}
+	.detail .amenities {
+		margin: 30px 0px 30px 0px;
+		width: 80%;
+	}
+		.amenities p {
+		}
+		.amenities span {
+		}
+	.detail .booking {
+		padding: 10px 10px 10px 10px;
+		width: 100%;
+		margin: 40px 0px 40px 0px;
+	}
+		.booking .price {
+			width: 100%;
+			float: none;
+			padding: 20px 0px 20px 0px;
+		}
+			.price span {
+			}
+		.booking form {
+			width: 100%;
+		}
+			.booking form .booking-checkin {
+				width: 280px;
+				margin: 0px 0px 10px 0px;
+			}
+			.booking form .booking-checkout {
+				width: 280px;
+			}
+				.input-wrapper .datepicker-icon {
+					top: 16px;
+					right: 16px;
+					width: 15px;
+					height: 15px;
+				}
+			.booking form input[type='submit'] {
+				width: 100%;
+				margin: 10px 0px 0px 0px;
+			}
+	.detail .extended-info {
+		width: 80%;
+	}
+
+	.detail .directions {
+		margin: 30px 0px 30px 0px;
+	}
+		.detail .directions .map {
+			margin: 0px 0px 0px 0px;
+			width: 305px;
+		}
+
+	/* Formating */
+	.detail h1 {
+		margin: 0px 0px 0px 25px;
+	}
+	.detail h2 {
+	}
+	.detail h3 {
+	}
+	.detail h4 {
+	}
+	.detail h2, .detail h3, .detail h4, .detail p, .detail ul, .detail ol, .detail blockquote {
+		margin: 0px 0px 25px 25px;
+	}
+	.detail a:hover {
+	}
+	.detail ul, .detail ol {
+		margin-left: 40px !important;
+	}
+	.detail blockquote {
+	    padding: 8px 10px;
+	}
+		.detail blockquote:before {
+		    margin-right: 0.25em;
+		    vertical-align: -30px;
+		}
+		.detail blockquote p {
+		}
+		.detail img {
+		}
+
+
+}

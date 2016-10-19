@@ -1,0 +1,208 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://hotheme.co/\n"
+"POT-Creation-Date: 2012-10-29 14:56:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-06-31 11:56+-0300\n"
+
+#: hotheme/404.php:23
+msgid "Upps, nothing there"
+msgstr ""
+
+#: hotheme/404.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: hotheme/404.php:44
+msgid "Most Used Categories"
+msgstr ""
+
+#: hotheme/archive.php:26
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: hotheme/archive.php:28
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: hotheme/archive.php:30
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: hotheme/archive.php:32
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: hotheme/archive.php:38
+msgid "Category Archives: %s"
+msgstr ""
+
+#: hotheme/archive.php:44
+msgid "Blog Archives"
+msgstr ""
+
+#: hotheme/author.php:30
+msgid "Author Archives: %s"
+msgstr ""
+
+#: hotheme/comments.php:19
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: hotheme/comments.php:35
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hotheme/comments.php:59
+msgid "Comments are closed."
+msgstr ""
+
+#: hotheme/footer.php:15
+msgid "Back to top"
+msgstr ""
+
+#: hotheme/functions.php:45
+msgid "Main Menu"
+msgstr ""
+
+#: hotheme/functions.php:99
+msgid "Page Sidebar"
+msgstr ""
+
+#: hotheme/functions.php:108
+msgid "Posts Sidebar"
+msgstr ""
+
+#: hotheme/functions.php:117
+msgid "Home Left"
+msgstr ""
+
+#: hotheme/functions.php:119
+msgid "Left textbox on homepage"
+msgstr ""
+
+#: hotheme/functions.php:127
+msgid "Home Middle"
+msgstr ""
+
+#: hotheme/functions.php:129
+msgid "Middle textbox on homepage"
+msgstr ""
+
+#: hotheme/functions.php:137
+msgid "Home Right"
+msgstr ""
+
+#: hotheme/functions.php:139
+msgid "Right textbox on homepage"
+msgstr ""
+
+#: hotheme/functions.php:147
+msgid "Footer Content"
+msgstr ""
+
+#: hotheme/functions.php:149
+msgid "Footer text or acknowledgements"
+msgstr ""
+
+#: hotheme/functions.php:181
+msgid "...Continue Reading"
+msgstr ""
+
+#: hotheme/functions.php:204
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: hotheme/functions.php:208
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: hotheme/functions.php:236
+msgid "Pingback:"
+msgstr ""
+
+#: hotheme/functions.php:236 functions.php:259
+msgid "(Edit)"
+msgstr ""
+
+#: hotheme/functions.php:246
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: hotheme/functions.php:96
+msgid "Kecy prdy lentilky."
+msgstr "Kecy prdy lentilky"
+
+#. translators: 1: date, 2: time
+#: hotheme/functions.php:257
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: hotheme/functions.php:285
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
+"time></a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: hotheme/functions.php:291
+msgid "View all posts by %s"
+msgstr ""
+
+#: hotheme/functions.php:418
+msgid "Home"
+msgstr ""
+
+#: hotheme/functions.php:437
+msgid "Archive by category "
+msgstr ""
+
+#: hotheme/functions.php:490
+msgid "Search results for"
+msgstr ""
+
+#: hotheme/functions.php:493
+msgid "Posts tagged"
+msgstr ""
+
+#: hotheme/functions.php:498
+msgid "Articles posted by "
+msgstr ""
+
+#: hotheme/functions.php:506
+msgid "Page"
+msgstr ""
+
+#: hotheme/header.php:33
+msgid "Page %s"
+msgstr ""
+
+#: hotheme/search.php:20
+msgid "Search Results for: %s"
+msgstr ""
+
+#: hotheme/search.php:35
+msgid "No Results Found"
+msgstr ""
+
+#: hotheme/search.php:36
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps you "
+"should try again with a different search term."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Default Index template to display loop of blog posts"
+msgstr ""
