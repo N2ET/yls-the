@@ -20,11 +20,11 @@
 
 <body <?php body_class(); ?>>
 <div id="page">
-    <div class="header">
+    <div id="#header">
         <!-- Logo -->
         <div id="logo-wrapper">
             <a href="#home" class="logo">
-                <img src="" alt="一来顺果业">
+                <img src="<?php echo get_asset_url('assets/img/logo.png')?>" alt="一来顺果业">
             </a>
         </div>
 
@@ -37,29 +37,24 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#gallery">
-                        图库
-                    </a>
-                </li>
-                <li>
-                    <a href="about">
+                    <a href="#about" target="about">
                         关于我们
                     </a>
                 <li>
                 <li>
-                    <a href="concat">
+                    <a href="#concat">
                         联系我们
+                    </a>
+                </li>
+                <li class="reservation-btn">
+                    <a href="#contact">
+                        联系我们
+                        <span class="grey"></span>
                     </a>
                 </li>
             </ul>
         </div> <!-- End: Menu -->
 
-        <li class="reservation-btn">
-            <a href="#contact">
-                联系我们
-                <span class="grey"></span>
-            </a>
-        </li>
     </div>
 
 

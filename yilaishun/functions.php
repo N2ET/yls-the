@@ -21,3 +21,8 @@ function yls_scripts() {
 	wp_enqueue_style('yls_style', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'yls_scripts');
+
+
+function get_asset_url($src) {
+    return get_template_directory_uri() . '/' . $src;
+}
