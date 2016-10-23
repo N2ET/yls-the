@@ -6,9 +6,9 @@ get_header();
     <div class="img-placeholder">
         <img src="<?php echo get_asset_url('assets/img/slider-1.jpg'); ?>">
     </div>
-    <img src="<?php echo get_asset_url('assets/img/slider-1.jpg'); ?>" class="active">
-    <img src="<?php echo get_asset_url('assets/img/slider-2.jpg'); ?>">
-    <img src="<?php echo get_asset_url('assets/img/slider-3.jpg'); ?>">
+    <img src="<?php echo get_asset_url('assets/img/slider-1.jpg'); ?>" alt="梅州金柚" class="active">
+    <img src="<?php echo get_asset_url('assets/img/slider-2.jpg'); ?>" alt="梅州金柚">
+    <img src="<?php echo get_asset_url('assets/img/slider-3.jpg'); ?>" alt="梅州金柚">
 </div>
 
 
@@ -26,23 +26,9 @@ get_header();
             <div class="col-left">
                 <p class="section-detail-des">
                     诚招全国有实力的微商代理、电商代理。我们是基地，可以提供基地一件代发，会提供详细的产品宣传资料给您。
-                    今年的中秋蜜柚我们做的就很成功，发货量全国各地日均800多件，售后服务绝对到位。
-                    欢迎微信或者来电详谈，合作共赢，彭老板<a href="tel:13632628218">13632628218</a>，微信同号。
+                    今年的中秋蜜柚我们做的就很成功，发货量全国各地日均800多件，售后服务绝对到位。<br />
+                    欢迎微信或者来电详谈，合作共赢，彭老板<a class="phone" href="tel:13632628218">13632628218</a>，微信同号。
                 </p>
-                <ul class="section-detail-list">
-                    <li>
-                        <p>生产基地，货源充足</p>
-                    </li>
-                    <li>
-                        <p>基地代发</p>
-                    </li>
-                    <li>
-                        <p>提供详细资料</p>
-                    </li>
-                    <li>
-                        <p>提供可靠售后服务</p>
-                    </li>
-                </ul>
             </div><!-- clear space
             --><div class="col-right">
                 <div id="about-qq-player">
@@ -56,34 +42,40 @@ get_header();
                 </div>
             </div>
         </div>
-
     </div>
-
 
     <div class="section" id="product">
         <div class="section-title">
-            <h3>来自梅州的鲜果</h3>
+            <h3>最新供应</h3>
             <p>
-                沙田柚，果大形美，吃起来清甜爽脆、甜而不酸，耐贮藏，因而获得自然界“天然罐头”之称。
+                供应正宗梅州沙田柚（梅州金柚），皮薄果肉饱满多汁，富含维生素又美味！
             </p>
         </div>
         <div class="section-content">
                 <ul class="section-card-list clear">
                     <li>
-                        <img src="<?php echo get_asset_url('assets/img/product-1.jpg'); ?>"/>
-                        <div class="img-des"></div>
+                        <div class="img-wrap">
+                            <img src="<?php echo get_asset_url('assets/img/product-1.jpg'); ?>"/>
+                            <div class="img-des">沙田柚 3.50元/斤</div>
+                        </div>
                     </li><!-- clear space
                     --><li>
-                        <img src="<?php echo get_asset_url('assets/img/product-2.jpg'); ?>"/>
-                        <div class="img-des"></div>
+                        <div class="img-wrap">
+                            <img src="<?php echo get_asset_url('assets/img/product-2.jpg'); ?>"/>
+                            <div class="img-des">沙田柚 3.20元/斤</div>
+                        </div>
                     </li><!-- clear space
                     --><li>
-                        <img src="<?php echo get_asset_url('assets/img/product-3.jpg'); ?>"/>
-                        <div class="img-des"></div>
+                        <div class="img-wrap">
+                            <img src="<?php echo get_asset_url('assets/img/product-3.jpg'); ?>"/>
+                            <div class="img-des">梅州金柚 3.50元/斤</div>
+                        </div>
                     </li><!-- clear space
                     --><li>
-                        <img src="<?php echo get_asset_url('assets/img/product-4.jpg'); ?>"/>
-                        <div class="img-des"></div>
+                        <div class="img-wrap">
+                            <img src="<?php echo get_asset_url('assets/img/product-4.jpg'); ?>"/>
+                            <div class="img-des">柚子 沙田柚 3.50元/斤</div>
+                        </div>
                     </li>
                 </ul>
         </div>
@@ -92,9 +84,9 @@ get_header();
 
     <div class="section" id="concat">
         <div class="section-title">
-            <h3>联系方式</h3>
+            <h3>联系我们</h3>
             <p>
-                最快找到我们！
+                真诚合作，欢迎联系！
             </p>
         </div>
         <div class="section-content">
@@ -106,20 +98,19 @@ get_header();
                     </li>
                     <li>
                         <span class="label">联系电话：</span>
-                        <span class="content"><a href="tel:13632628218">13632628218</a></span>
+                        <span class="content"><a class="phone" href="tel:13632628218">13632628218</a></span>
                     </li>
                     <li>
                         <span class="label">邮箱：</span>
-                        <span class="content">153527299@qq.com</span>
+                        <span class="content"><a href="mailto:153527299@qq.com">153527299@qq.com</a></span>
                     </li>
                     <li>
                         <span class="label">地址：</span>
                         <span class="content"> 广东省梅州市梅县区桃尧镇学府路</span>
                     </li>
-                    <li>
+                    <li class="qr-row">
                         <div class="label">二维码：</div>
                         <div class="content">
-                            <div class="qr-code qr-web"></div>
                             <div class="qr-code qr-penghao"></div>
                         </div>
                     </li>
@@ -136,7 +127,7 @@ get_header();
 
 <div id="footer">
     <div class="content">
-
+        Copyright © 2016 一来顺水果专业合作社 <?php echo site_url(); ?>
     </div>
 </div>
 
@@ -144,13 +135,13 @@ get_header();
 
 </div>
 
-<div id="wechat-tool">
-
+<div id="opr-tool" class="hide">
+    <a class="to-top" href="#home">返回顶部</a><!-- clear space
+    --><a class="phone" href="tel:13632628218">拨打电话</a>
 </div>
 
 <script type="text/javascript" src="<?php echo get_asset_url('assets/js/jquery-1.7.2.min.js') ?>"></script>
 <script type="text/javascript">
-    /* slider */
     function swapImages() {
         var $slider = $('#slider');
         var $active = $slider.find('.active');
@@ -166,7 +157,36 @@ get_header();
         });
     }
 
+
+    function initPath() {
+
+        $(window).on('hashchange', function(e) {
+
+            var $menu = $('#menu-wrapper');
+            var $active = $menu.find('.active');
+            var $menuItem = $menu.find('[href="' + location.hash + '"]');
+            var defaultHash = '#home';
+
+            $active.removeClass('active');
+
+            if(!$menuItem.size()) {
+                $menuItem = $menu.find('[href="' + defaultHash + '"]');
+            }
+
+            $menuItem.addClass('active');
+        });
+    }
+
+
+    initPath();
     $(document).ready(function () {
         setInterval('swapImages()', 5000);
+
+        $('#opr-tool .to-top').click(function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+        });
     });
+
 </script>
