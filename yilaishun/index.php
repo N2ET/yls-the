@@ -108,7 +108,7 @@ get_header();
                         <span class="label">地址：</span>
                         <span class="content"> 广东省梅州市梅县区桃尧镇学府路</span>
                     </li>
-                    <li class="qr-row">
+                    <li class="qr-row" style="display: none">
                         <div class="label">二维码：</div>
                         <div class="content">
                             <div class="qr-code qr-penghao"></div>
